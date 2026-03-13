@@ -2,6 +2,16 @@
 
 A feature-rich RESTful API for personal note management, featuring secure authentication, private collections, and cloud media storage.
 
+## 🌿 Repository Structure
+
+This project followed a staged development process. Each branch represents a completed assignment with specific milestones:
+* **main** — The complete, production-ready version of the API.
+* **01-express** — Initial setup, Express server, and basic routing.
+* **02-mongodb** — MongoDB integration, Mongoose schemas, and Notes CRUD.
+* **03-validation** — Added request validation using Joi/Celebrate and centralized error handling.
+* **04-auth** — Implementation of secure authentication, sessions, and JWT-based access control.
+* **05-mail-and-img** — Password reset via SMTP and cloud media management with Cloudinary.
+
 ## 🚀 Features
 
 * **Auth & Security**: JWT-based sessions, HTTP-only cookies, and password hashing with `Bcrypt`.
